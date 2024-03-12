@@ -1,0 +1,56 @@
+Authantication (login, register, forgot) ✅✅
+College_auth (register, login, forgot) ✅✅
+
+**forgot password baki hai
+
+Pages:
+
+Homepage: 
+	GET profile ✅✅
+	GET job_post, ✅✅
+
+Profile : 
+	PUT profile(name, avtar, email, phone) ✅✅
+	PUT add_experience ✅✅
+	PUT add_skills ✅ ✅
+	GET all_job_post/:id & POST, DELETE ✅✅
+	POST connection  ✅✅
+
+
+	** GET connection_list/:id  doing something changes
+	
+College: 
+ 
+	GET college_detail $ update(logo, website) ✅✅
+	GET student_list ✅✅
+	GET alumni_list ✅ ✅
+	GET posted_jobs ✅✅
+	GET unverified_user_list ✅✅
+	GET unverified_alumni_list ✅✅
+
+	PUT verify_user & PUT unverified_user //if not verified then  send mail and delete user ✅✅
+
+	PUT verify_alumni & PUT unverified_user //if not verified then  send mail and delete user ✅
+
+
+Super Admin Page: ✅
+
+    College 
+
+	    GET college_list ✅
+        GET unverfied_college_list ✅
+		delete college ✅
+	    PUT verify_college_list ✅
+		PUT unverified_college ✅
+    
+    Student/Alumni 
+
+	    GET alumni_list ✅
+		delete alumni ✅
+	    GET student_list ✅
+		delete student ✅
+    
+    Posts 
+	    GET posted_jobs ✅
+		delete job ✅
+	
